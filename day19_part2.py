@@ -1,7 +1,7 @@
 import turtle
 from turtle import Turtle ,Screen
 import  random
-
+#jsut a random check
 
 race_start = True
 screen = Screen()
