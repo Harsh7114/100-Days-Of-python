@@ -73,7 +73,7 @@ def draw_spirograph(size_of_gap):
         bob.circle(100)
         bob.setheading(bob.heading()+size_of_gap)
 
-draw_spirograph(7)
+draw_spirograph(5)
 
 
 screen = Screen()
