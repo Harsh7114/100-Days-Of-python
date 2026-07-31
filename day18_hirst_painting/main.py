@@ -35,6 +35,7 @@ for i in range(0,10):
         bob.dot(20,color_list[random.randint(0,29)])
         bob.penup()
         bob.forward(50)
+        bob.hideturtle()
     bob.left(90)
     bob.penup()
     bob.forward(50)
