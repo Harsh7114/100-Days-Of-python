@@ -16,12 +16,19 @@ class Snake:
 
     def create_snake(self):
         for index in DIST:
-            new_turtle = Turtle()
-            new_turtle.shape("square")
-            new_turtle.color("white")
-            new_turtle.penup()
-            new_turtle.goto(index)
-            self.snake_3parts.append(new_turtle)
+            self.add_snake(index)
+
+    def add_snake(self, position):
+        new_turtle = Turtle()
+        new_turtle.shape("square")
+        new_turtle.color("white")
+        new_turtle.penup()
+        new_turtle.goto(position)
+        self.snake_3parts.append(new_turtle)
+    def extend_snake(self):
+        self.add_snake(self.snake_3parts[-1].position())  # -1 means last part of snake part list concept
+
+
     def move(self):
         # to move the parts in 3,2,1 order
         for parts in range(len(self.snake_3parts) - 1, 0, -1):
