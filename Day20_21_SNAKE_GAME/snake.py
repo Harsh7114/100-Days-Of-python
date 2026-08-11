@@ -25,6 +25,15 @@ class Snake:
         new_turtle.penup()
         new_turtle.goto(position)
         self.snake_3parts.append(new_turtle)
+
+    def reset(self):
+        for seg in self.snake_3parts:
+            seg.goto(1000,1000)
+        self.snake_3parts.clear()
+        self.create_snake()
+        self.head = self.snake_3parts[0]
+
+
     def extend_snake(self):
         self.add_snake(self.snake_3parts[-1].position())  # -1 means last part of snake part list concept
 
