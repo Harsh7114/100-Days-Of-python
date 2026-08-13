@@ -38,7 +38,7 @@ print(data["temp"].max())
 print(data["condition"])
 #or using attribute
 print(data.condition)
-
+print(data.day)
 # to get data from row
 print(data[data.day == "Monday"])
 # which row has highest temp
@@ -57,3 +57,4 @@ data_dict ={
 data=pandas.DataFrame(data_dict)
 print(data)
 data.to_csv("newdata.csv")
+
