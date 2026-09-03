@@ -72,6 +72,21 @@ def save_pass():
             website_entry.delete(0, END)
             password_entry.delete(0, END)
     #window.destroy()
+def search():
+    website = website_entry.get()
+    try:
+        with open("password.json","r") as file:
+            data=json.load(file)
+            if website in data:
+                password = data[website]["password"]  # fetch only password
+                email=data[website]["email"]
+                messagebox.showinfo(title="Website found", message=f"Email:{email}\npassword:{password}")
+            else:
+                messagebox.showinfo(title="Error", message="Website not found")
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message="No Data file Found")
+
+
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
@@ -90,13 +105,15 @@ website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(row=2,column=1,columnspan=2)
 email_entry.insert(END,"harshranjan2582779@gmail.com")
-password_entry = Entry(width=21)
+password_entry = Entry(width=17)
 password_entry.grid(row=3,column=1)
 #button
 generate_Pass = Button(text="Generate Password",command=generate_password)
 generate_Pass.grid(column=2,row=3)
 add_button = Button(text="ADD",width=36,command=save_pass)
 add_button.grid(row=4,column=1,columnspan=2)
+search_button = Button(text="Search",command=search,fg="white",bg="blue")
+search_button.grid(column=2,row=1)
 canvas= Canvas(width=200,height=200,bg='white',highlightthickness=0)
 image = PhotoImage(file="logo.png")
 canvas.create_image(100,100,image=image)
