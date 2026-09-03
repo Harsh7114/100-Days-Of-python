@@ -2,6 +2,7 @@ from tkinter import *
 import random
 from  tkinter import  messagebox
 import pyperclip
+import json
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -25,19 +26,51 @@ def save_pass():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
-    if len(website)==0:
-        messagebox.showinfo(title="OOPS",message="Please enter website")
-    if len(password)<5:
-        messagebox.showinfo(title="OOPS",message="Enter password greater than 5 digit")
-    if len(website)>0 and len(password)>5:
-        is_ok=messagebox.askokcancel(title= website ,message=f"These are the details entered:\n Email:{email}"
-                        f"\n Password: {password}\n Is it ok to save ?")
+
+    new_data = {
+        website: {
+            "email": email,
+            "password": password
+        }
+    }
+
+    if len(website) == 0:
+        messagebox.showinfo(
+            title="OOPS",
+            message="Please enter website"
+        )
+
+    elif len(password) < 5:
+        messagebox.showinfo(
+            title="OOPS",
+            message="Enter password greater than 5 digit"
+        )
+
+    else:
+        is_ok = messagebox.askokcancel(
+            title=website,
+            message=f"These are the details entered:\nEmail: {email}"
+                    f"\nPassword: {password}\nIs it ok to save?"
+        )
+
         if is_ok:
-            with open("password.txt", "a") as f:
-                f.write(f"Website: {website} | Email: {email} | Password: {password} \n")
-                #f.write("\n")
-                website_entry.delete(0,END)
-                password_entry.delete(0,END)
+            try:
+                # READ existing data
+                with open("password.json", "r") as f:
+                    data = json.load(f)
+
+                # ADD new data
+                data.update(new_data)
+
+                # WRITE updated data
+                with open("password.json", "w") as f:
+                    json.dump(data, f, indent=4)
+            except (FileNotFoundError,json.JSONDecodeError):
+                with open("password.json", "w") as f:
+                    json.dump(new_data, f, indent=4)
+
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
     #window.destroy()
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
@@ -46,7 +79,6 @@ window.config(padx=50,pady=50)
 #label
 website_label = Label(text="Website:")
 website_label.grid(row=1,column=0)
-website_text=Text()
 email_label = Label(text="Email/Username:")
 email_label.grid(row=2,column=0)
 password_label = Label(text="Password:")
