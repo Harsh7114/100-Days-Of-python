@@ -33,15 +33,21 @@ for i in range(0,26):
 
 print(data_dict)
 
+def generate_phonetic ():
+    #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
+    user_word = input("Enter a word :").upper()
+    try:
 
+        ###METHOD 1 ANGELA
+        output_list = [dictionary[letter] for letter in user_word]
+        print(output_list)
+        ### METHOD 2  MINE
+        list =[]
+        for i in user_word:
+            list.append(data_dict[i])
+        print(list)
+    except KeyError:
+        print("Enter the word between a-z and A-Z only")
+        generate_phonetic()
+generate_phonetic()
 
-#TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-user_word = input("Enter a word :").upper()
-###METHOD 1 ANGELA
-output_list = [dictionary[letter] for letter in user_word]
-print(output_list)
-### METHOD 2  MINE
-list =[]
-for i in user_word:
-    list.append(data_dict[i])
-print(list)
