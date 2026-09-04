@@ -4,23 +4,31 @@ import pandas as pd
 import random
 #-------------correct function---------
 def correct():
-
+    to_learn.remove(current_card)
+    data = pd.DataFrame(to_learn)
+    data.to_csv("data/words_to_learn.csv",index=False)
     next_card()
-    pass
+
 def wrong():
     next_card()
     pass
 
 # -------------- Read data------
-data = pd.read_csv("data/french_words.csv")
+try:
+    data = pd.read_csv("data/words_to_learn.csv")
+except FileNotFoundError:
+    data=pd.read_csv("data/french_words.csv")
 #print(data["English"])
 #ANGELA CODE
 to_learn = data.to_dict(orient="records")
 current_card={}
 def next_card():
     global current_card
+    if len(to_learn)==0:
+        canvas.itemconfig(card_title,text="FINISHED !")
+        canvas.itemconfig(word_text,text="NO WORD LEFT")
     current_card = random.choice(to_learn)
-    canvas.itemconfig(card_title,text="French",fill="Black")
+    canvas.itemconfig(card_title,text="French",fill="black")
     canvas.itemconfig(word_text, text=current_card["French"])
     canvas.itemconfig(card_background, image=card_front_img)
     window.after(3000, func=flip_card)
