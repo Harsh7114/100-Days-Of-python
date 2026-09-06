@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6060e126-49ab-4149-bce9-2a941d19bda5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PYTHON DAYS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day31/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day31/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/Kanye_Quote/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/Kanye_Quote/kanye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/Kanye_Quote/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/api_parameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +55,11 @@
       <recent name="C:\PYTHON DAYS\day18_hirst_painting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PYTHON DAYS\Day33\Kanye_Quote" />
+      <recent name="C:\PYTHON DAYS\DAY32\birthday\letter_templates" />
+      <recent name="C:\PYTHON DAYS\DAY32\birthday" />
+      <recent name="C:\PYTHON DAYS\DAY32" />
       <recent name="C:\PYTHON DAYS\day31" />
-      <recent name="C:\PYTHON DAYS\DAY29" />
-      <recent name="C:\PYTHON DAYS\DAY25" />
     </key>
   </component>
   <component name="RunManager">
