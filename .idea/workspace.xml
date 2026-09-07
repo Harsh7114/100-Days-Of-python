@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6060e126-49ab-4149-bce9-2a941d19bda5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day33/Kanye_Quote/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day33/Kanye_Quote/kanye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day33/Kanye_Quote/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day33/api_parameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day33/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/Issoverhead/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day33/Issoverhead/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/api_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/api_parameter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +53,11 @@
       <recent name="C:\PYTHON DAYS\day18_hirst_painting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PYTHON DAYS\Day33\Issoverhead" />
       <recent name="C:\PYTHON DAYS\Day33\Kanye_Quote" />
       <recent name="C:\PYTHON DAYS\DAY32\birthday\letter_templates" />
       <recent name="C:\PYTHON DAYS\DAY32\birthday" />
       <recent name="C:\PYTHON DAYS\DAY32" />
-      <recent name="C:\PYTHON DAYS\day31" />
     </key>
   </component>
   <component name="RunManager">
