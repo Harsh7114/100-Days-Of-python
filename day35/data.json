@@ -1,0 +1,177 @@
+{
+    "cod": "200",
+    "message": 0,
+    "cnt": 4,
+    "list": [
+        {
+            "dt": 1789052400,
+            "main": {
+                "temp": 300.92,
+                "feels_like": 305.26,
+                "temp_min": 298.61,
+                "temp_max": 300.92,
+                "pressure": 1004,
+                "sea_level": 1004,
+                "grnd_level": 976,
+                "humidity": 84,
+                "temp_kf": 2.31,
+                "dew_point": 297.97
+            },
+            "weather": [
+                {
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 2.77,
+                "deg": 288,
+                "gust": 3.76
+            },
+            "visibility": 10000,
+            "pop": 1,
+            "rain": {
+                "3h": 7.81
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2026-09-10 15:00:00"
+        },
+        {
+            "dt": 1789063200,
+            "main": {
+                "temp": 299.72,
+                "feels_like": 299.72,
+                "temp_min": 298.54,
+                "temp_max": 299.72,
+                "pressure": 1005,
+                "sea_level": 1005,
+                "grnd_level": 976,
+                "humidity": 88,
+                "temp_kf": 1.18,
+                "dew_point": 297.57
+            },
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 0.83,
+                "deg": 27,
+                "gust": 0.8
+            },
+            "visibility": 10000,
+            "pop": 0.8,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2026-09-10 18:00:00"
+        },
+        {
+            "dt": 1789074000,
+            "main": {
+                "temp": 297.81,
+                "feels_like": 298.81,
+                "temp_min": 297.81,
+                "temp_max": 297.81,
+                "pressure": 1004,
+                "sea_level": 1004,
+                "grnd_level": 974,
+                "humidity": 95,
+                "temp_kf": 0,
+                "dew_point": 296.72
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 1.23,
+                "deg": 79,
+                "gust": 1.21
+            },
+            "visibility": 10000,
+            "pop": 0.39,
+            "rain": {
+                "3h": 0.12
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2026-09-10 21:00:00"
+        },
+        {
+            "dt": 1789084800,
+            "main": {
+                "temp": 297.31,
+                "feels_like": 298.29,
+                "temp_min": 297.31,
+                "temp_max": 297.31,
+                "pressure": 1005,
+                "sea_level": 1005,
+                "grnd_level": 975,
+                "humidity": 96,
+                "temp_kf": 0,
+                "dew_point": 296.54
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10n"
+                }
+            ],
+            "clouds": {
+                "all": 99
+            },
+            "wind": {
+                "speed": 1.77,
+                "deg": 64,
+                "gust": 1.95
+            },
+            "visibility": 10000,
+            "pop": 0.6,
+            "rain": {
+                "3h": 0.78
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2026-09-11 00:00:00"
+        }
+    ],
+    "city": {
+        "id": 1255437,
+        "name": "Sundargarh",
+        "coord": {
+            "lat": 22.1198,
+            "lon": 84.0374
+        },
+        "country": "IN",
+        "population": 41705,
+        "timezone": 19800,
+        "sunrise": 1788998959,
+        "sunset": 1789043581
+    }
+}
