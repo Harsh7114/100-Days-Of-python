@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 792,
+    "articles": [
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Jess Weatherbed",
+            "title": "Tesla sunsets its Solar Roof tiles",
+            "description": "Tesla has discontinued Solar Roof, its solar panels designed to look like regular roofing tiles, Electrek reports. Sources \"close to the program\" told the publication that Tesla has informed its third-party installer network that Solar Roof is no longer avail\u2026",
+            "url": "https://www.theverge.com/tech/983167/tesla-solar-roof-tiles-discontinued",
+            "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/7369261/2016-10-28_at_5.57_PM.0.png?quality=90&strip=all&crop=3.1283444816054,0,93.743311036789,100",
+            "publishedAt": "2026-08-21T12:01:07Z",
+            "content": "<ul><li></li><li></li><li></li></ul>\r\nThe company has reportedly concluded the product is financially unviable.\r\nThe company has reportedly concluded the product is financially unviable.\r\nby\r\nJess We\u2026 [+3071 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Andrew J. Hawkins",
+            "title": "The unusually muted Tesla Cybercab launch",
+            "description": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on\u2026",
+            "url": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+            "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-2265246421.jpg?quality=90&strip=all&crop=0%2C15.098136889637%2C100%2C69.803726220726&w=1200",
+            "publishedAt": "2026-09-04T00:27:46Z",
+            "content": "<ul><li></li><li></li><li></li></ul>\r\nTesla has 45 Cybercabs registered in Texas, though its unclear how many of them will be doing passenger trips.\r\nTesla has 45 Cybercabs registered in Texas, thoug\u2026 [+7050 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Andrew J. Hawkins",
+            "title": "Tesla is finally launching the Cybercab \u2014 let\u2019s hope it\u2019s ready",
+            "description": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing it's public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains ver\u2026",
+            "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
+            "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2270749481.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+            "publishedAt": "2026-08-18T16:26:29Z",
+            "content": "<ul><li></li><li></li><li></li></ul>\r\nThe companys gold-tinted driverless car is central to Elon Musks dreams of robo-domination. But what if the software isnt ready?\r\nThe companys gold-tinted driver\u2026 [+7005 chars]"
+        }
+    ]
+}
