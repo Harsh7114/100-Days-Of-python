@@ -4,6 +4,9 @@ load_dotenv()
 from langchain_groq import  ChatGroq
 from pydantic import  BaseModel , Field
 from calories_api import get_calories
+from match_activity import choose_best_activity
+from datetime import datetime
+from google_sheets import add_workout
 class Workout(BaseModel):
     activity: str = Field(
         description="Name of the exercise or activity"
@@ -46,6 +49,27 @@ calorie_data = get_calories(
     duration=workout.duration,
     intensity=workout.intensity
 )
+# print("Candidates:")
+# print(calorie_data)
 
-print("Calorie result:")
-print(calorie_data)
+best_match = choose_best_activity(
+    user_activity=workout.activity,
+    intensity=workout.intensity,
+    candidates=calorie_data
+)
+
+if best_match:
+    print("Best match:", best_match["name"])
+    print("Calories burned:", best_match["total_calories"])
+    now = datetime.now()
+    date = now.strftime("%d/%m/%Y")
+    time = now.strftime("%H:%M")
+    add_workout(
+        date=date,
+        time=time,
+        exercise=workout.activity,
+        duration=workout.duration,
+        calories=best_match["total_calories"]
+    )
+else:
+    print("Could not find a suitable exercise match.")

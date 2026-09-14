@@ -21,16 +21,6 @@ def get_calories(activity,weight,duration,intensity=None):
     data = response.json()
     if not data:
         return None
-
-        # If intensity was provided, try to find it
-    if intensity:
-        intensity = intensity.lower()
-
-        for result in data:
-            if intensity in result["name"].lower():
-                return result
-
-        # Otherwise return all candidates
     return data
 # if response.status_code == requests.codes.ok:
 #     data = response.json()
