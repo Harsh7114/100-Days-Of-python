@@ -1,0 +1,549 @@
+{
+    "object": "list",
+    "data": [
+        {
+            "id": "back_extension",
+            "name": "45-Degree Back Extension",
+            "primary_muscle": "lower_back",
+            "secondary_muscles": [
+                "glutes",
+                "hamstrings"
+            ],
+            "pattern": "hip_hinge",
+            "equipment": [
+                "dumbbells",
+                "bench_or_box"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": true,
+            "preferred_rank": 1,
+            "e1rm_substitution_group": "lower_back_extension",
+            "default_rep_low": 10,
+            "default_rep_high": 15,
+            "loadable": true,
+            "unilateral": false,
+            "home_hotel_friendly": false,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Hinge down with control, extend to neutral spine, squeeze glutes, don't hyperextend."
+        },
+        {
+            "id": "ab_wheel_rollout",
+            "name": "Ab Wheel Rollout",
+            "primary_muscle": "abs",
+            "secondary_muscles": [
+                "lower_back"
+            ],
+            "pattern": "anti_extension",
+            "equipment": [
+                "ab_wheel"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": true,
+            "preferred_rank": 1,
+            "e1rm_substitution_group": "abs_anti_extension",
+            "default_rep_low": 8,
+            "default_rep_high": 15,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Brace hard, roll out as far as you can hold a flat spine, pull back with abs."
+        },
+        {
+            "id": "advanced_tuck_front_lever",
+            "name": "Advanced Tuck Front Lever Hold",
+            "primary_muscle": "lats",
+            "secondary_muscles": [
+                "upper_back",
+                "rear_delts",
+                "abs",
+                "lower_back"
+            ],
+            "pattern": "horizontal_pull",
+            "equipment": [
+                "pullup_bar"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 3,
+            "e1rm_substitution_group": "front_lever_horizontal_pull",
+            "default_rep_low": 5,
+            "default_rep_high": 30,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "extended",
+            "modality": "calisthenics",
+            "progression_group": "front_lever_pull_line",
+            "progression_level": 3,
+            "cues": "Open the hips so the back is flat and horizontal, knees bent, depress scapulae, hold (seconds)."
+        },
+        {
+            "id": "advanced_tuck_planche",
+            "name": "Advanced Tuck Planche",
+            "primary_muscle": "front_delts",
+            "secondary_muscles": [
+                "chest",
+                "abs",
+                "lower_back",
+                "biceps"
+            ],
+            "pattern": "horizontal_press",
+            "equipment": [
+                "parallettes"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 5,
+            "e1rm_substitution_group": "planche_horizontal_push",
+            "default_rep_low": 5,
+            "default_rep_high": 30,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "extended",
+            "modality": "calisthenics",
+            "progression_group": "planche_push_line",
+            "progression_level": 5,
+            "cues": "Open the hips so the back is flat and parallel to floor, knees still bent, hold (seconds)."
+        },
+        {
+            "id": "archer_pullup",
+            "name": "Archer Pull-up",
+            "primary_muscle": "lats",
+            "secondary_muscles": [
+                "biceps",
+                "upper_back",
+                "rear_delts"
+            ],
+            "pattern": "vertical_pull",
+            "equipment": [
+                "pullup_bar"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 5,
+            "e1rm_substitution_group": "vertical_pull_progression",
+            "default_rep_low": 3,
+            "default_rep_high": 8,
+            "loadable": false,
+            "unilateral": true,
+            "home_hotel_friendly": true,
+            "tier": "extended",
+            "modality": "calisthenics",
+            "progression_group": "vertical_pull_line",
+            "progression_level": 5,
+            "cues": "Pull to one hand while the other arm stays nearly straight along the bar; alternate sides."
+        },
+        {
+            "id": "arnold_press",
+            "name": "Arnold Press",
+            "primary_muscle": "front_delts",
+            "secondary_muscles": [
+                "side_delts",
+                "triceps"
+            ],
+            "pattern": "vertical_press",
+            "equipment": [
+                "dumbbells",
+                "adjustable_bench"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 5,
+            "e1rm_substitution_group": "shoulder_vertical_press",
+            "default_rep_low": 8,
+            "default_rep_high": 12,
+            "loadable": true,
+            "unilateral": false,
+            "home_hotel_friendly": false,
+            "tier": "extended",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Start palms facing you, rotate out as you press overhead, reverse on the way down."
+        },
+        {
+            "id": "assisted_squat",
+            "name": "Assisted (Pole/Door) Squat",
+            "primary_muscle": "quads",
+            "secondary_muscles": [
+                "glutes",
+                "hamstrings"
+            ],
+            "pattern": "squat",
+            "equipment": [
+                "none_bodyweight"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 1,
+            "e1rm_substitution_group": "single_leg_squat_progression",
+            "default_rep_low": 10,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "extended",
+            "modality": "calisthenics",
+            "progression_group": "pistol_squat_line",
+            "progression_level": 1,
+            "cues": "Hold a doorframe/pole for balance and assistance, squat to full depth, drive up."
+        },
+        {
+            "id": "assisted_pullup",
+            "name": "Assisted Pull-up",
+            "primary_muscle": "lats",
+            "secondary_muscles": [
+                "biceps",
+                "upper_back"
+            ],
+            "pattern": "vertical_pull",
+            "equipment": [
+                "assisted_pullup_machine"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 3,
+            "e1rm_substitution_group": "lats_vertical_pull",
+            "default_rep_low": 8,
+            "default_rep_high": 12,
+            "loadable": true,
+            "unilateral": false,
+            "home_hotel_friendly": false,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Set assist so last reps are hard; full range, elbows down."
+        },
+        {
+            "id": "band_curl",
+            "name": "Band Biceps Curl",
+            "primary_muscle": "biceps",
+            "secondary_muscles": [
+                "forearms"
+            ],
+            "pattern": "curl",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 6,
+            "e1rm_substitution_group": "biceps_curl",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Stand on band, curl up with elbows pinned, slow eccentric for tension."
+        },
+        {
+            "id": "band_chest_fly",
+            "name": "Band Chest Fly",
+            "primary_muscle": "chest",
+            "secondary_muscles": [
+                "front_delts"
+            ],
+            "pattern": "fly",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 3,
+            "e1rm_substitution_group": "chest_fly",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Anchor band behind you, sweep hands together with soft elbows."
+        },
+        {
+            "id": "band_face_pull",
+            "name": "Band Face Pull",
+            "primary_muscle": "rear_delts",
+            "secondary_muscles": [
+                "upper_back",
+                "traps"
+            ],
+            "pattern": "rear_delt",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 6,
+            "e1rm_substitution_group": "rear_delt_fly",
+            "default_rep_low": 15,
+            "default_rep_high": 25,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "extended",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Anchor band at face height, pull to forehead, elbows high, squeeze rear delts."
+        },
+        {
+            "id": "band_glute_bridge",
+            "name": "Band Glute Bridge",
+            "primary_muscle": "glutes",
+            "secondary_muscles": [
+                "hamstrings"
+            ],
+            "pattern": "hip_thrust",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 4,
+            "e1rm_substitution_group": "glute_hip_thrust",
+            "default_rep_low": 15,
+            "default_rep_high": 25,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Band above knees, drive hips up off floor, push knees out, squeeze glutes."
+        },
+        {
+            "id": "band_good_morning",
+            "name": "Band Good Morning",
+            "primary_muscle": "lower_back",
+            "secondary_muscles": [
+                "glutes",
+                "hamstrings"
+            ],
+            "pattern": "hip_hinge",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 4,
+            "e1rm_substitution_group": "lower_back_extension",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Band over shoulders under feet, hinge at hips with flat back, drive hips through."
+        },
+        {
+            "id": "hip_abduction_band",
+            "name": "Band Hip Abduction (Side-Lying)",
+            "primary_muscle": "glutes",
+            "secondary_muscles": [],
+            "pattern": "hip_thrust",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 1,
+            "e1rm_substitution_group": "glute_abduction",
+            "default_rep_low": 15,
+            "default_rep_high": 25,
+            "loadable": false,
+            "unilateral": true,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Band above knees, lift top leg up and back, control down, target glute medius."
+        },
+        {
+            "id": "band_lat_pulldown",
+            "name": "Band Lat Pulldown",
+            "primary_muscle": "lats",
+            "secondary_muscles": [
+                "biceps",
+                "upper_back"
+            ],
+            "pattern": "vertical_pull",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 5,
+            "e1rm_substitution_group": "lats_vertical_pull",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Anchor band overhead, kneel, pull elbows down to ribs."
+        },
+        {
+            "id": "band_lateral_raise",
+            "name": "Band Lateral Raise",
+            "primary_muscle": "side_delts",
+            "secondary_muscles": [
+                "traps"
+            ],
+            "pattern": "lateral_raise",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 4,
+            "e1rm_substitution_group": "side_delt_raise",
+            "default_rep_low": 15,
+            "default_rep_high": 25,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Stand on band, raise hands out to sides to shoulder height, slow eccentric."
+        },
+        {
+            "id": "band_overhead_press",
+            "name": "Band Overhead Press",
+            "primary_muscle": "front_delts",
+            "secondary_muscles": [
+                "side_delts",
+                "triceps"
+            ],
+            "pattern": "vertical_press",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 4,
+            "e1rm_substitution_group": "shoulder_vertical_press",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Stand on band, press handles overhead, control the descent."
+        },
+        {
+            "id": "band_rear_delt_fly",
+            "name": "Band Rear Delt Fly",
+            "primary_muscle": "rear_delts",
+            "secondary_muscles": [
+                "upper_back",
+                "traps"
+            ],
+            "pattern": "rear_delt",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "high",
+            "is_gold_standard": false,
+            "preferred_rank": 4,
+            "e1rm_substitution_group": "rear_delt_fly",
+            "default_rep_low": 15,
+            "default_rep_high": 25,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Anchor band in front at chest height, pull hands apart and back."
+        },
+        {
+            "id": "band_rdl",
+            "name": "Band Romanian Deadlift",
+            "primary_muscle": "hamstrings",
+            "secondary_muscles": [
+                "glutes",
+                "lower_back"
+            ],
+            "pattern": "hip_hinge",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 3,
+            "e1rm_substitution_group": "hamstring_hinge",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Stand on band, hinge at hips, push hips back, feel hamstring tension."
+        },
+        {
+            "id": "band_seated_row",
+            "name": "Band Seated Row",
+            "primary_muscle": "upper_back",
+            "secondary_muscles": [
+                "lats",
+                "rear_delts",
+                "biceps"
+            ],
+            "pattern": "horizontal_pull",
+            "equipment": [
+                "resistance_bands"
+            ],
+            "sfr_class": "moderate",
+            "is_gold_standard": false,
+            "preferred_rank": 5,
+            "e1rm_substitution_group": "back_horizontal_row",
+            "default_rep_low": 12,
+            "default_rep_high": 20,
+            "loadable": false,
+            "unilateral": false,
+            "home_hotel_friendly": true,
+            "tier": "core",
+            "modality": "hypertrophy",
+            "progression_group": null,
+            "progression_level": null,
+            "cues": "Anchor band at foot level, sit tall, pull to navel, squeeze blades."
+        }
+    ],
+    "count": 20,
+    "total": 183,
+    "limit": 20,
+    "offset": 0
+}
