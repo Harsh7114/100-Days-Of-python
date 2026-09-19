@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6060e126-49ab-4149-bce9-2a941d19bda5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day38/match_activity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day38/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/day38/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day38/calories_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/day38/calories_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 39/.readme_md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +49,11 @@
       <recent name="C:\PYTHON DAYS\day18_hirst_painting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PYTHON DAYS\day 39" />
       <recent name="C:\PYTHON DAYS\Day34\images" />
       <recent name="C:\PYTHON DAYS\Day34" />
       <recent name="C:\PYTHON DAYS\Day33\Issoverhead" />
       <recent name="C:\PYTHON DAYS\Day33\Kanye_Quote" />
-      <recent name="C:\PYTHON DAYS\DAY32\birthday\letter_templates" />
     </key>
   </component>
   <component name="RunManager">
