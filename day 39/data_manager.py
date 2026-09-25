@@ -9,7 +9,7 @@ load_dotenv(Base_DIR/".env")
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
     def __init__(self):
-        self.sheety_endpoint  = os.getenv("SHEETY_ENDPOINT")
+        self.sheety_endpoint = os.getenv("SHEETY_ENDPOINT")
         if not self.sheety_endpoint:
             raise ValueError("SHEETY_ENDPOINT not found in .env")
 
