@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FitZone - Classes</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            padding: 40px;
+        }
+
+        .dashboard {
+            background: white;
+            max-width: 650px;
+            margin: auto;
+            padding: 35px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #16a34a;
+        }
+
+        .logout {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #dc2626;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <h1 id="welcome-message">
+            Welcome, {{ username }}!
+        </h1>
+
+        <p id="login-status">
+            Login successful!
+        </p>
+
+        <h2>FitZone Gym Classes</h2>
+
+        <p>Your gym membership dashboard is ready.</p>
+
+        <a
+            href="/logout"
+            class="logout"
+            id="logout-btn"
+        >
+            Logout
+        </a>
+
+    </div>
+
+</body>
+</html>

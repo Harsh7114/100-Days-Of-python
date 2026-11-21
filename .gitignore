@@ -5,3 +5,4 @@ __pycache__/
 .env
 credentials.json
 price_history.json
+day49/profiles/
